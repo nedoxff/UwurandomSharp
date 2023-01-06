@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Title>UwurandomSharp</Title>
+        <Authors>nedoxff</Authors>
+        <Description>like uwurandom, but slower</Description>
+        <PackageProjectUrl>https://github.com/nedoxff/UwurandomSharp</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/nedoxff/UwurandomSharp/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/nedoxff/UwurandomSharp</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageTags>uwu random nonsense</PackageTags>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="XoshiroPRNG.Net" Version="1.6.0" />
+    </ItemGroup>
+
+</Project>
